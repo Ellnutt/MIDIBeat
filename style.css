@@ -1,0 +1,82 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(105, 36, 233)
+}
+
+.app {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header h1 {
+    margin: 50px 0px 30px 0px;
+    text-align: center;
+    font-size: 50px;
+    transition: 0.9s;
+    color: aqua;
+    width: 300px;
+    border: 5px solid rgb(243, 248, 243);
+    padding: 50px;
+    margin: 20px;
+}
+
+header p {
+    font-size: 25px;
+    color: rgb(105, 16, 16);
+    position: relative;
+    text-shadow: 2px 2px;
+    text-align: center;
+}
+
+.pads {
+    background: rgb(18, 156, 202);
+    width: 100%;
+    display: flex;
+    cursor: cell;
+}
+
+.im {
+    size-adjust: flex;
+}
+
+.im2 {
+    size: 30%;
+}
+
+.pads>div {
+    height: 100px;
+    width: 100px;
+    flex: 1;
+}
+
+.pad1 {
+    background: navy;
+}
+
+.pad2 {
+    background: rgb(117, 117, 62);
+}
+
+.pad3 {
+    background: green;
+}
+
+.pad4 {
+    background: rgb(65, 20, 189);
+}
+
+.pad5 {
+    background: rgb(133, 34, 129);
+}
+
+.pad6 {
+    background: purple;
+}
